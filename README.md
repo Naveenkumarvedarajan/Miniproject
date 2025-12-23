@@ -1,59 +1,95 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
-
+URL SHORTENER
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project is a Full Stack URL Shortener Web Application developed using React JS, Tailwind CSS, and Supabase. The system allows users to convert long URLs into short, easy-to-share links. It includes user authentication, QR code generation, automatic redirection, and a user-specific dashboard to manage shortened URLs.
+The application also provides an Admin Panel for monitoring and controlling all URLs created by different users. This project demonstrates the practical implementation of frontend, backend, authentication, and database integration in a real-world web application.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+-> User Signup & Login Authentication</br>
+-> Secure URL Shortening</br>
+-> Redirection using short links</br>
+-> QR Code Generation for each short URL</br>
+-> User-wise Dashboard to view history</br>
+-> Copy & Delete URLs</br>
+-> Animated Modern UI</br>
+-> Secure Database using Supabase</br>
+-> Logout & Session Handling</br>
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+### Software Requirements
+-> Node.js</br>
+-> NPM</br>
+-> VS Code / Any Code Editor</br>
+-> Web Browser (Chrome / Edge)</br>
+-> Supabase Account</br>
+-> React 18+</br>
+-> Tailwind CSS</br>
+
+### Hardware Requirements
+-> System with minimum 4GB RAM</br>
+-> Internet Connection</br>
+-> Any modern CPU</br>
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+The architecture of the Secure URL Shortener Web Application is based on a Client–Server Model with cloud backend services (Supabase).</br>
+1.The User accesses the application through a Web Browser.</br>
+2.The Frontend (React JS + Tailwind CSS) handles:</br>
+  -> User Interface</br>
+  -> Form input</br>
+  -> Authentication requests</br>
+  -> Display of shortened URLs and dashboards</br>
+3.The frontend communicates with Supabase Backend using REST APIs & SDK.</br>
+4.Supabase provides:</br>
+  -> Authentication Service (Login, Signup, Session)</br>
+  -> Database Service (Store URLs, Users)</br>
+5.When a user enters a long URL:</br>
+  -> A short code is generated (NanoID).</br>
+  -> The data is stored in the Supabase Database.</br>
+6.When a short URL is accessed:</br>
+  -> The Redirect Module fetches the original URL.</br>
+  -> The user is redirected to the original website.</br>
+7.The Admin Panel fetches all users’ URLs for monitoring and control.</br>
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/41d509e4-7032-4849-b7c3-3177d2c645d5" />
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - LOGIN PAGE 
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1470" height="923" alt="Screenshot 2025-11-30 at 7 04 45 PM" src="https://github.com/user-attachments/assets/8f5ed73f-f009-44c9-aa43-0100368241a4" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - HOME PAGE 
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="1470" height="923" alt="Screenshot 2025-11-30 at 7 05 11 PM" src="https://github.com/user-attachments/assets/c3fea411-fc4d-47ee-a933-0e443f08e708" />
+
+#### Output3 - DASHBOARD 
+
+<img width="1470" height="925" alt="Screenshot 2025-11-30 at 7 06 46 PM" src="https://github.com/user-attachments/assets/3ff3db1a-9042-425d-8532-53e4668cbc84" />
 
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+## Results
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Users can log in, shorten URLs, and generate QR codes successfully.</br>
+Short URLs are stored and redirected correctly using Supabase</br>
+Dashboard and logout features work properly.</br>
+The application is responsive and user-friendly.</br>
+
+## Impact
+
+Makes long URLs easy to share.</br>
+Improves user productivity and security.</br>
+Demonstrates real-time full-stack web development.</br>
+Project is scalable for real-world use.</br>
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
+Supabase Documentation – https://supabase.com/docs</br>
+React Official Documentation – https://react.dev</br>
+Tailwind CSS Documentation – https://tailwindcss.com/docs</br>
+NanoID Documentation – https://github.com/ai/nanoid</br>
+QRCode Generator Library – https://www.npmjs.com/package/qrcode</br>
+MDN Web Docs – https://developer.mozilla.org</br>
 
 
 
